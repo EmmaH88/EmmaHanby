@@ -1,18 +1,69 @@
-h1 {
-  color: blue;
-  font-family: "Poppins", sans-serif;
+:root {
+  ---brand-color: #ffffff;
+}
+
+body {
+  background: #212121;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(---brand-color);
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
 }
 
-.heading {
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.navbar-logo {
+  width: 100px;
+  border-radius: 10px 40px;
+  border: 5px solid violet;
+}
+
+.navbar-links a {
+  color: var(---brand-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  width: 288px;
+  height: 19px;
+  left: 1012px;
+  top: 51px;
+}
+
+.contact-button {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-
-.insta {
-  font-size: 40px;
-  color: blueviolet;
+  align-items: center;
+  margin-top: 20px;
+  padding: 18px 30px;
+  gap: 10px;
+  width: 200px;
+  background: #ffffff;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
 }
