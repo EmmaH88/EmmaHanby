@@ -1,3 +1,18 @@
 h1 {
   color: blue;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.insta {
+  font-size: 40px;
+  color: blueviolet;
 }
