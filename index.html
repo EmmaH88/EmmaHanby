@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -40,7 +41,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-md bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/logo.jpeg" alt="logo" class="navbar-logo" />
@@ -60,28 +61,97 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar-links">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link btn btn-success ms-2 me-2" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link btn btn-success ms-2 me-2" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">projects</a>
+              <a class="nav-link btn btn-success ms-2 me-2" href="#">projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact</a>
+              <a class="nav-link btn btn-success ms-2 me-2">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="container-home">
     <h2 class="text-center mt-5">Hi I'm</h2>
     <h1 class="text-center mb-3">Emma Hanby</h1>
     <h3 class="text-center mb-5">
       Front-end Developer from Castleford, West Yorkshire
     </h3>
-    <button class="btn btn-dark mb-4 d-grid gap-2 col-6 mx-auto contact-button">
+
+    <a
+      href="#"
+      class="btn btn-dark mb-5 d-grid gap-2 col-6 mx-auto contact-button"
+    >
       Contact me 📮
-    </button>
+    </a>
+    
+    </div>
+
+
+    <div class="text-center mt-5">
+      <p class="text-light">Some of my favourite projects</p>
+    </div>
+
+    <div class="container-dotd mt-3">
+      <div class="row">
+        <div class="col-sm-6">
+          <img
+            src="images/day-of-the-dead.png"
+            class="img-fluid ms-3 mb-3"
+            alt="day of the dead"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h4 class="text-center">Day of the Dead Project</h4>
+          <p class="text-light text-center">
+            The Day of the Dead (el Día de los Muertos), is a Mexican holiday
+            where families welcome back the souls of their deceased relatives
+            for a brief reunion that includes food, drink and celebration.
+          </p>
+          <a href="#" class="btn btn-outline-success"
+            >Launch day of the Dead Project</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container-hobby mt-3">
+      <div class="row">
+        <div class="col-sm-6">
+          <h4 class="ms-3 text-center">Hobby Project</h4>
+          <p class="text-light text-center ms-3">
+            Crochet is a stress buster, there's nothing like concentrating on a
+            pattern you love, plus the steady use of your hands and the pleasant
+            feel of the yarn, helps to take your mind off your cares.
+          </p>
+          <a href="#" class="ms-3 btn btn-outline-success"">Launch day of the Dead Project</a>
+        </div>
+        <div class="col-sm-6">
+          <img src="images/crochet.png" class="img-fluid me-3 mb-3" alt="Hobby" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-weather mt-3">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="images/weather-app.png" class="img-fluid ms-3 mb-3" alt="weather" />
+        </div>
+        <div class="col-sm-6">
+          <h4 class="text-center">Vanilla Weather App Project</h4>
+          <p class="text-light text-center">
+            This weather app has been coded with AJAX and weather API. I had a
+            lot of fun building this project andat times it was difficult.
+            However the SheCodes community were on hand when I needed help 😊
+          </p>
+          <a href="#" class="btn btn-outline-success">Launch Weather App Project</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
