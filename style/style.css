@@ -70,10 +70,7 @@ p {
 a {
   padding: 5px 10px;
   margin: 50px;
-}
-
-.navbar {
-  height: 150px;
+  font-family: var(--main-font-family);
 }
 
 .navbar-logo {
@@ -81,6 +78,7 @@ a {
   height: 75px;
   border-radius: 10px 40px;
   border: 5px solid var(--brand-color);
+  box-shadow: var(--box-shadow);
 }
 
 .navbar-links a {
@@ -101,12 +99,13 @@ a {
 
 .navbar-hamburger {
   background-color: var(--brand-color);
+  box-shadow: var(--box-shadow);
 }
 
 .container-home {
   background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4-1024x640.png");
-  margin-top: 100px;
   border: 3px solid var(--third-color);
+  box-shadow: var(--box-shadow);
 }
 
 .contact-button {
@@ -131,13 +130,53 @@ a {
 }
 
 .container-dotd {
-  border: 2px solid var(--brand-color);
+  border: 4px solid var(--brand-color);
+  box-shadow: var(--box-shadow);
 }
 
 .container-hobby {
-  border: 2px solid var(--brand-color);
+  border: 4px solid var(--brand-color);
+  box-shadow: var(--box-shadow);
 }
 
 .container-weather {
-  border: 2px solid var(--brand-color);
+  border: 4px solid var(--brand-color);
+  box-shadow: var(--box-shadow);
+}
+
+.about-section-container {
+  max-width: 1440px;
+}
+
+.portfolio-img {
+  width: 450;
+  height: 482px;
+  left: 0px;
+  top: 118px;
+  border: 3px solid var(--brand-color);
+}
+
+.about-section-content h2 {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 28px;
+  text-decoration: underline;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+}
+
+.about-section-content h1 {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.about-section-content p {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
