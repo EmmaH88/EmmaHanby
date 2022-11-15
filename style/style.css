@@ -85,6 +85,13 @@ footer {
   font-weight: 300;
 }
 
+small {
+  color: lightcyan;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+
 .navbar-logo {
   height: 75px;
   border-radius: 10px 40px;
