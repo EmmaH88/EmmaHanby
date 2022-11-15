@@ -73,6 +73,24 @@ img {
   padding: 10px 15px;
 }
 
+footer {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link-home {
+  text-decoration: none;
+  color: #ffffff;
+
+  text-align: center;
+}
+
+footer .email-link-home:hover {
+  color: var(--brand-color);
+  transition: 500ms ease-in;
+}
+
 .navbar-logo {
   height: 75px;
   border-radius: 10px 40px;
