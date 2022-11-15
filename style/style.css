@@ -73,16 +73,19 @@ a {
   font-family: var(--main-font-family);
 }
 
+img {
+  border-radius: 10px;
+  border: 4px solid var(--brand-color);
+  padding: 10px 15px;
+}
+
 .navbar-logo {
-  width: 100px;
   height: 75px;
   border-radius: 10px 40px;
   border: 5px solid var(--brand-color);
-  box-shadow: var(--box-shadow);
 }
 
 .navbar-links a {
-  box-shadow: var(--box-shadow);
   background: var(--fourth-color);
   color: var(--brand-color);
   font-family: var(--default-font-family);
@@ -99,13 +102,16 @@ a {
 
 .navbar-hamburger {
   background-color: var(--brand-color);
-  box-shadow: var(--box-shadow);
 }
 
 .container-home {
   background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4-1024x640.png");
-  border: 3px solid var(--third-color);
-  box-shadow: var(--box-shadow);
+  border: 3px solid var(--brand-color);
+}
+
+.container {
+  max-width: 900px;
+  padding: 10px 15px;
 }
 
 .contact-button {
@@ -118,10 +124,9 @@ a {
   background: #ffffff;
   border-radius: 50px 20px;
   border: 3px solid var(--second-color);
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--default-font-family);
   background: var(--first-color);
   color: var(--second-color);
-  box-shadow: var(--box-shadow);
 }
 
 .contact-button:hover {
@@ -130,37 +135,21 @@ a {
 }
 
 .container-dotd {
-  border: 4px solid var(--brand-color);
-  box-shadow: var(--box-shadow);
-}
-
-.container-hobby {
-  border: 4px solid var(--brand-color);
-  box-shadow: var(--box-shadow);
-}
-
-.container-weather {
-  border: 4px solid var(--brand-color);
-  box-shadow: var(--box-shadow);
-}
-
-.about-section-container {
-  border: 4px solid var(--brand-color);
-}
-
-.portfolio-img {
-  width: 500px;
-  height: 482px;
-  left: 0px;
-  top: 118px;
   border: 3px solid var(--brand-color);
 }
 
-.about-section-content h2 {
-  width: 202px;
-  height: 21px;
-  left: calc(50% - 102px / 2 + 71px);
+.container-hobby {
+  border: 3px solid var(--brand-color);
+}
+
+.container-weather {
+  border: 3px solid var(--brand-color);
+}
+
+.content-container {
+  border: 3px solid var(--brand-color);
   top: 169px;
+  margin: 0 auto;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 28px;
@@ -169,7 +158,18 @@ a {
   letter-spacing: 0.1em;
 }
 
-.about-section-content h1 {
+.portfolio-img {
+  width: 500px;
+  height: 482px;
+  margin: 0 auto;
+  padding: 20 px 30px;
+  top: 118px;
+  border: 3px solid var(--brand-color);
+}
+
+.content-container h1 {
+  margin: 0 auto;
+  padding: 5px 10px;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 64px;
@@ -178,9 +178,34 @@ a {
   text-transform: uppercase;
 }
 
-.about-section-content p {
+.content-container p {
+  margin: 0 auto;
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+}
+
+.content-container-projects h1 {
+  margin: 0 auto;
+
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.content-container-projects h2 {
+  width: 176px;
+  height: 36px;
+}
+
+.content-container-projects img {
+  margin: 0 auto;
+
+  width: 560px;
+  height: 560px;
+  border-radius: 20px;
+  border: 3px solid var(--brand-color);
 }

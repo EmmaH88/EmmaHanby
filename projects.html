@@ -2,8 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Emma Hanby front-end developer portfolio"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -36,10 +41,11 @@
       src="https://kit.fontawesome.com/71c281ee62.js"
       crossorigin="anonymous"
     ></script>
+
     <title>My Projects | Emma Hanby</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md bg-dark">
+    <nav class="navbar navbar-expand-sm bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/logo.jpeg" alt="logo" class="navbar-logo" />
@@ -77,9 +83,9 @@
             <li class="nav-item">
               <a
                 class="nav-link btn btn-success ms-2 me-2 active"
-                title="projects page"
-                href="#"
                 aria-current="page"
+                title="projects page"
+                href="projects.html"
                 >projects</a
               >
             </li>
@@ -95,12 +101,67 @@
         </div>
       </div>
     </nav>
-    <div class="projects-container">
+
+    <div class="container content-container mb-5">
+      <h2 class="text-center mb-3">My Projects</h2>
+      <h1 class="text-center mt-3">
+        Take a look at what i have been working on
+      </h1>
+    </div>
+
+    <div class="container content-container-projects mt-5">
       <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
-        <div class="col-6"></div>
-        <div class="col-6"></div>
+        <div class="col-md-6">
+          <img
+            src="images/day-of-the-dead.png"
+            class="img-fluid rounded"
+            alt="Day of the dead"
+          />
+          <h5 class="text-center mt-3">Dayof the dead project</h5>
+          <p class="text-muted">
+            This project was built using HTML, CSS and JavaScript. And was part
+            of the SheCodes Basics Workshop
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <img
+            src="images/crochet.png"
+            class="img-fluid rounded"
+            alt="My hobbies"
+          />
+          <h5 class="text-center mt-3">My hobbies project</h5>
+          <p class="text-muted">
+            This project was built using HTML, CSS and JavaScript. And was part
+            of the SheCodes Basics Add-on Workshop
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <img
+            src="images/weather-app.png"
+            class="img-fluid rounded"
+            alt="weather app"
+          />
+          <h5 class="text-center mt-3">Weather App project</h5>
+          <p class="text-muted">
+            This project was built using HTML, CSS and JavaScript with AJAX and
+            weather API. And was part of the SheCodes Plus Workshop.
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <img
+            src="images/world-clock.png"
+            class="img-fluid rounded"
+            alt="world-clock"
+          />
+          <h5 class="text-center mt-3">World Clock App project</h5>
+          <p class="text-muted">
+            This project was built using HTML, CSS and JavaScript. And was part
+            of the SheCodes Plus Add-on Workshop
+          </p>
+        </div>
       </div>
     </div>
   </body>
