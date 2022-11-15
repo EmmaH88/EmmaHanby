@@ -17,7 +17,7 @@
 }
 
 body {
-  background: #212121;
+  background: #494949;
 }
 
 h1 {
@@ -93,7 +93,7 @@ footer {
 
 .navbar-links a {
   background: var(--fourth-color);
-  color: var(--brand-color);
+  color: var(--first-color);
   font-family: var(--default-font-family);
   font-weight: 500;
   font-size: 16px;
@@ -103,8 +103,8 @@ footer {
 }
 
 .navbar-links a:hover {
-  background: var(--brand-color);
-  color: var(--second-color);
+  background: var(-first-color);
+  color: var(--fourth-color);
   text-decoration: underline;
 }
 
@@ -135,9 +135,6 @@ footer {
 .container-projects-home {
   border: 3px solid var(--brand-color);
   box-shadow: var(--box-shadow);
-}
-
-.contact-button {
 }
 
 .portfolio-img {
