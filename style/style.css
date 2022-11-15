@@ -285,3 +285,7 @@ footer .email-link-home:hover {
 .contact-page a:hover {
   color: var(--second-color);
 }
+
+.contact-box {
+  border: 3px solid var(--brand-color);
+}
