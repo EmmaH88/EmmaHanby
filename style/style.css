@@ -1,15 +1,15 @@
 :root {
   --brand-color: #7ff106;
 
-  --first-color: #08271b;
+  --first-color: #f4f3f3;
 
-  --second-color: #19e50e;
+  --second-color: #dfdfdf;
 
-  --third-color: #6ee70a;
+  --third-color: #bfd8d5;
 
-  --fourth-color: #0fac01;
+  --fourth-color: #b1bed5;
 
-  --box-shadow: 17px 7px 15px rgb(129, 244, 14);
+  --box-shadow: 4px 6px 4px #f5f8f2;
 
   --main-font-family: "Roboto", sans-serif;
 
@@ -20,43 +20,42 @@ body {
   background: #212121;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   font-family: var(--main-font-family);
   font-style: normal;
-  color: var(--fourth-color);
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--first-color);
 }
 
 h2 {
-  margin-top: 20px;
+  font-family: var(--main-font-family);
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-style: bold;
+  font-size: 45px;
+  line-height: 40px;
   text-transform: capitalize;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 84px;
+  color: var(--second-color);
 }
 
 h3 {
-  font-weight: 800;
-  font-size: 28px;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 30px;
   line-height: 30px;
+  color: var(--third-color);
 }
 
-h4 {
-  margin-top: 15px;
-}
-
-img {
-  margin-top: 15px;
+h4,
+h5,
+h6 {
+  font-family: var(--default-font-family);
+  color: var(--fourth-color);
+  font-weight: 500;
+  line-height: 40px;
 }
 
 p {
@@ -67,28 +66,23 @@ p {
   line-height: 30px;
 }
 
-img {
-  border-radius: 10px;
-  border: 4px solid var(--brand-color);
-  padding: 10px 15px;
+a {
+  text-decoration: none;
+  text-align: center;
+  font-family: var(--default-font-family);
+  color: var(--second-color);
+}
+
+a:hover {
+  color: var(--fourth-color);
+  text-decoration: underline;
 }
 
 footer {
-  color: #ffffff;
   font-size: 24px;
   text-align: center;
-}
-
-footer .email-link-home {
-  text-decoration: none;
-  color: #ffffff;
-
-  text-align: center;
-}
-
-footer .email-link-home:hover {
-  color: var(--brand-color);
-  transition: 500ms ease-in;
+  font-family: var(--default-font-family);
+  font-weight: 300;
 }
 
 .navbar-logo {
@@ -118,47 +112,13 @@ footer .email-link-home:hover {
   background-color: var(--brand-color);
 }
 
-.container-home {
-  background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4-1024x640.png");
-  border: 3px solid var(--brand-color);
-}
-
 .container {
   max-width: 900px;
   padding: 10px 15px;
 }
 
-.contact-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 18px 30px;
-  width: 200px;
-  background: #ffffff;
-  border-radius: 50px 20px;
-  border: 3px solid var(--second-color);
-  font-family: var(--default-font-family);
-  background: var(--first-color);
-  color: var(--second-color);
-  text-decoration: none;
-}
-
-.contact-button:hover {
-  background: var(--second-color);
-  color: var(--first-color);
-  text-decoration: underline;
-}
-
-.container-dotd {
-  border: 3px solid var(--brand-color);
-}
-
-.container-hobby {
-  border: 3px solid var(--brand-color);
-}
-
-.container-weather {
+.container-header {
+  background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4-1024x640.png");
   border: 3px solid var(--brand-color);
 }
 
@@ -166,12 +126,18 @@ footer .email-link-home:hover {
   border: 3px solid var(--brand-color);
   top: 169px;
   margin: 0 auto;
+  padding: 5px 10px;
   font-family: var(--main-font-family);
-  font-weight: 700;
-  font-size: 28px;
-  text-decoration: underline;
   line-height: 21px;
   letter-spacing: 0.1em;
+}
+
+.container-projects-home {
+  border: 3px solid var(--brand-color);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-button {
 }
 
 .portfolio-img {
@@ -183,69 +149,8 @@ footer .email-link-home:hover {
   border: 3px solid var(--brand-color);
 }
 
-.content-container h1 {
-  margin: 0 auto;
-  padding: 5px 10px;
-  font-family: var(--main-font-family);
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 75px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.content-container p {
-  margin: 0 auto;
-  font-family: var(--main-font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.content-container-about h1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 75px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.content-container-about h2 {
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 21px;
-  letter-spacing: 0.1em;
-}
-
-.content-container-about p {
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.content-container-projects h1 {
-  margin: 0 auto;
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 85px;
-}
-
-.content-container-projects h2 {
-  width: 176px;
-  height: 36px;
-}
-
 .content-container-projects img {
   margin: 0 auto;
-
   width: 560px;
   height: 560px;
   border-radius: 20px;
@@ -253,37 +158,9 @@ footer .email-link-home:hover {
 }
 
 .contact-page {
-  font-family: "Roboto";
+  font-family: var(--main-font-family);
   font-style: normal;
-}
-
-.contact-page h1 {
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 84px;
   text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.contact-page h3 {
-  color: var(--second-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.contact-page a {
-  color: var(--fourth-color);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.contact-page a:hover {
-  color: var(--second-color);
 }
 
 .contact-box {
