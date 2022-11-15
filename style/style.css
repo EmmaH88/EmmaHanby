@@ -186,9 +186,35 @@ img {
   line-height: 30px;
 }
 
+.content-container-about h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.content-container-about h2 {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+}
+
+.content-container-about p {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .content-container-projects h1 {
   margin: 0 auto;
-
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 700;
